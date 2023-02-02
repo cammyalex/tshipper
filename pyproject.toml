@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "tshipper"
+version = "0.1.0"
+description = "optimization model for solving transshipment problems"
+authors = ["cameron-wong"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+pandas = "^1.5.3"
+pyomo = "^6.4.4"
+glpk = "^0.4.6"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
